@@ -1,3 +1,3 @@
-# FMCS Whitespace
+# String Length
 
-A site for removing white spaces on [freemcserver.net](https://freemcserver.net) FTP pass.
+A site for calculating the string length amount.
