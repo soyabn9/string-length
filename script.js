@@ -1,6 +1,6 @@
 function length() {
   let str = document.getElementById("string");
-  calculateString(str.value);
+  calculateString(str);
 }
 
 function calculateString(str) {
