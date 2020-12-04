@@ -1,11 +1,8 @@
 function length() {
-  let str = document.getElementById("string");
-  calculateString(str);
-}
-
-function calculateString(str) {
-  document.getElementById("output").innerHTML = "Amount of characters: "+str.length;
-  document.getElementById("input").innerHTML = str;
+  let str = document.getElementById("string").value;
+  var n = str.length;
+  document.getElementById("number").innerHTML = "Amount of characters: "+str.length;
+  document.getElementById("output").innerHTML = "'"+str+"'";
 }
 
 function copyElementText() {
