@@ -1,9 +1,9 @@
-function remove() {
+function length() {
   let str = document.getElementById("string");
-  whitespaceString(str.value);
+  calculateString(str.value);
 }
 
-function whitespaceString(str) {
+function calculateString(str) {
   document.getElementById("output").innerHTML = "Amount of characters: "+str.length;
   document.getElementById("input").innerHTML = str;
 }
