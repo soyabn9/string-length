@@ -4,8 +4,7 @@ function remove() {
 }
 
 function whitespaceString(str) {
-  document.getElementById("output").innerHTML = str
-      .trim();
+  document.getElementById("output").innerHTML = "Amount of characters: "+str.length;
   document.getElementById("input").innerHTML = str;
 }
 
@@ -17,4 +16,5 @@ function copyElementText() {
     elem.select();
     document.execCommand("copy");
     document.body.removeChild(elem);
+    alert("Copied");
 }
